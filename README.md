@@ -1,0 +1,146 @@
+[index.html.txt](https://github.com/user-attachments/files/24519544/index.html.txt)
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Isaac Newton Web Sitesi</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(to right,#43cea2,#185a9d);
+}
+
+header{
+background:#ff6a00;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#222;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:15px;
+}
+
+img{
+width:100%;
+max-width:300px;
+display:block;
+margin:auto;
+border-radius:10px;
+}
+
+h2{
+color:#ff6a00;
+text-align:center;
+}
+
+footer{
+background:#ff6a00;
+color:white;
+text-align:center;
+padding:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ISAAC NEWTON</h1>
+<p>Fen Bilimleri Web Sitesi Ödevi</p>
+</header>
+
+<nav>
+<a href="#kim">Kimdir?</a>
+<a href="#yer">Yer Çekimi</a>
+<a href="#elma">Elma</a>
+<a href="#hareket">Hareket</a>
+<a href="#teleskop">Teleskop</a>
+<a href="#isik">Işık</a>
+</nav>
+
+<section id="kim">
+<h2>Newton Kimdir?</h2>
+<img src="newton.jpg">
+<p>
+Isaac Newton, İngiliz fizikçi ve matematikçidir.
+Bilim tarihinin en önemli insanlarından biridir.
+</p>
+</section>
+
+<section id="yer">
+<h2>Yer Çekimi Yasası</h2>
+<img src="yercekimi.png">
+<p>
+Newton, cisimlerin birbirini çektiğini keşfetmiştir.
+Bu kuvvete yer çekimi denir.
+</p>
+</section>
+
+<section id="elma">
+<h2>Elma Hikayesi</h2>
+<img src="elma.png">
+<p>
+Ağaçtan düşen elma Newton’a ilham vermiştir.
+Yer çekimi fikri böyle ortaya çıkmıştır.
+</p>
+</section>
+
+<section id="hareket">
+<h2>Hareket Yasaları</h2>
+<img src="hareket.png">
+<p>
+Newton üç hareket yasası bulmuştur.
+Bu yasalar fizikte çok önemlidir.
+</p>
+</section>
+
+<section id="teleskop">
+<h2>Teleskop İcadı</h2>
+<img src="teleskop.jpg">
+<p>
+Newton aynalı teleskop icat etmiştir.
+Uzayı incelemeyi kolaylaştırmıştır.
+</p>
+</section>
+
+<section id="isik">
+<h2>Işık ve Prizma</h2>
+<img src="prizma.png">
+<p>
+Newton prizma deneyleriyle
+beyaz ışığın renklerden oluştuğunu keşfetmiştir.
+</p>
+</section>
+
+<footer>
+© 2026 Newton Web Sitesi
+</footer>
+
+</body>
+</html>
+
+newton.jpg
+elma.png
+teleskop.jpg
+prizma.png
+yercekimi.png
+hareket.png
